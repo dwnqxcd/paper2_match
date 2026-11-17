@@ -8,3 +8,11 @@ paper/*.docx
 results/raw/_audit_*.txt
 results/raw/_repeats.log
 .DS_Store
+draw/*.png
+draw/*.tif
+draw/*.pptx
+draw/match_data/
+weights/
+method_code/
+logs/
+tools_ref_query.py
