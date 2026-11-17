@@ -15,7 +15,9 @@ JSON = os.path.join(PROJ, "results", "raw", "map_stats.json")
 
 j = json.load(open(JSON, encoding="utf-8"))
 after = j["fig6"]["after"]          # [vis_sift, vis_loftr, vis_roma, tir_sift, tir_loftr, tir_roma]
-before = [0.0] * len(after)
+before = [j[t][m]["gsd0"]["rate"] for t, m in
+          (("vis_sat", "sift"), ("vis_sat", "loftr"), ("vis_sat", "roma"),
+           ("tir_sat", "sift"), ("tir_sat", "loftr"), ("tir_sat", "roma"))]
 labels = ["VIS-sat. SIFT", "VIS-sat. LoFTR", "VIS-sat. RoMa",
           "TIR-sat. SIFT", "TIR-sat. LoFTR", "TIR-sat. RoMa"]
 
