@@ -18,7 +18,7 @@ B = os.path.join(PROJ, "data", "M3T", "test_dataset")
 RAW = os.path.join(PROJ, "results", "raw")
 OUT = os.path.join(RAW, "density_repeats.csv")
 DEV = "cuda"
-REPS = {"2000": 5, "4000": 5, "8000": 3}
+REPS = {"2000": 5, "4000": 5}
 PER_SCENE = int(os.environ.get("REP_PER_SCENE", "40"))
 MIN_INL = 15
 
