@@ -2,7 +2,7 @@
 
 Code and per-frame results for
 
-> **Scale Normalization, Adaptive Correspondence Density and Risk-Coverage-Gated Verification
+> **Scale Normalization, Correspondence Sampling Budget and Risk-Coverage-Gated Verification
 > for Cross-Modal UAV Registration**
 
 The pipeline has three stages, each evaluated on its own and then cumulatively:
