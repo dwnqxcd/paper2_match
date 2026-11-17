@@ -1,0 +1,155 @@
+{
+  "vis_sat": {
+    "sift": {
+      "attempted": 1598,
+      "success": 460,
+      "rate": 28.8,
+      "median_ok": 8.6,
+      "note": "map_vis_map_gsd1.csv (map)"
+    },
+    "disk": {
+      "attempted": 1598,
+      "success": 191,
+      "rate": 12.0,
+      "median_ok": 10.1,
+      "note": "map_vis_map_gsd1_extra.csv (map)"
+    },
+    "dedode": {
+      "attempted": 1598,
+      "success": 203,
+      "rate": 12.7,
+      "median_ok": 9.9,
+      "note": "map_vis_map_gsd1_extra.csv (map)"
+    },
+    "loftr": {
+      "attempted": 1598,
+      "success": 223,
+      "rate": 14.0,
+      "median_ok": 12.1,
+      "note": "map_vis_map_gsd1.csv (map)"
+    },
+    "xoftr": {
+      "attempted": 1598,
+      "success": 196,
+      "rate": 12.3,
+      "median_ok": 73.2,
+      "note": "map_vis_map_gsd1_extra.csv (map)"
+    },
+    "roma": {
+      "attempted": 1598,
+      "success": 358,
+      "rate": 22.4,
+      "median_ok": 478.1,
+      "note": "map_vis_map_gsd1.csv (map)"
+    },
+    "cfog": {
+      "attempted": 1597,
+      "success": 269,
+      "rate": 16.8,
+      "median_ok": 17.6,
+      "note": "m3t_test_dataset_vis_cfog_full.csv (cfog)"
+    }
+  },
+  "tir_sat": {
+    "sift": {
+      "attempted": 1598,
+      "success": 0,
+      "rate": 0.0,
+      "median_ok": 617.9,
+      "note": "map_ir_map_gsd1.csv (map)"
+    },
+    "disk": {
+      "attempted": 1598,
+      "success": 0,
+      "rate": 0.0,
+      "median_ok": null,
+      "note": "map_ir_map_gsd1_extra.csv (map)"
+    },
+    "dedode": {
+      "attempted": 1598,
+      "success": 0,
+      "rate": 0.0,
+      "median_ok": 284.0,
+      "note": "map_ir_map_gsd1_extra.csv (map)"
+    },
+    "loftr": {
+      "attempted": 1598,
+      "success": 13,
+      "rate": 0.8,
+      "median_ok": 23.5,
+      "note": "map_ir_map_gsd1.csv (map)"
+    },
+    "xoftr": {
+      "attempted": 1598,
+      "success": 107,
+      "rate": 6.7,
+      "median_ok": 325.2,
+      "note": "map_ir_map_gsd1_extra.csv (map)"
+    },
+    "roma": {
+      "attempted": 1598,
+      "success": 51,
+      "rate": 3.2,
+      "median_ok": 465.3,
+      "note": "map_ir_map_gsd1.csv (map)"
+    },
+    "cfog": {
+      "attempted": 1597,
+      "success": 299,
+      "rate": 18.7,
+      "median_ok": 26.8,
+      "note": "m3t_test_dataset_ir_cfog_full.csv (cfog)"
+    }
+  },
+  "tir_vis": {
+    "sift": {
+      "attempted": 1602,
+      "success": 0,
+      "rate": 0.0,
+      "median_ok": 1078.2,
+      "note": "m3t_tirvis_sift_full.csv (baselines)"
+    },
+    "disk": {
+      "attempted": 1602,
+      "success": 24,
+      "rate": 1.5,
+      "median_ok": 10.1,
+      "note": "disk_dedode_full.csv (baselines)"
+    },
+    "dedode": {
+      "attempted": 1602,
+      "success": 24,
+      "rate": 1.5,
+      "median_ok": 25.5,
+      "note": "disk_dedode_full.csv (baselines)"
+    },
+    "loftr": {
+      "attempted": 1602,
+      "success": 390,
+      "rate": 24.3,
+      "median_ok": 10.1,
+      "note": "loftr_full.csv (baselines)"
+    },
+    "xoftr": {
+      "attempted": 1602,
+      "success": 191,
+      "rate": 11.9,
+      "median_ok": 21.9,
+      "note": "m3t_xoftr_full.csv (roma_xoftr)"
+    },
+    "roma": {
+      "attempted": 1602,
+      "success": 801,
+      "rate": 50.0,
+      "median_ok": 10.0,
+      "note": "m3t_roma_full.csv (roma_xoftr)"
+    },
+    "cfog": {
+      "attempted": null,
+      "success": null,
+      "rate": null,
+      "median_ok": null,
+      "note": "MISSING"
+    }
+  }
+}

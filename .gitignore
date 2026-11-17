@@ -1,0 +1,10 @@
+data/
+__pycache__/
+*.pyc
+*.pyo
+draw/_preview_*
+draw/*.pdf
+paper/*.docx
+results/raw/_audit_*.txt
+results/raw/_repeats.log
+.DS_Store

@@ -1,0 +1,365 @@
+{
+  "methods": [
+    "sift",
+    "loftr",
+    "roma"
+  ],
+  "scenes": [
+    "test01",
+    "test02",
+    "test03",
+    "test04",
+    "test05",
+    "test06"
+  ],
+  "vis_sat": {
+    "sift": {
+      "gsd0": {
+        "attempted": 1598,
+        "success": 0,
+        "rate": 0.0,
+        "median_ok": 3035.8
+      },
+      "gsd1": {
+        "attempted": 1598,
+        "success": 460,
+        "rate": 28.8,
+        "median_ok": 8.6
+      }
+    },
+    "loftr": {
+      "gsd0": {
+        "attempted": 1598,
+        "success": 0,
+        "rate": 0.0,
+        "median_ok": null
+      },
+      "gsd1": {
+        "attempted": 1598,
+        "success": 223,
+        "rate": 14.0,
+        "median_ok": 12.1
+      }
+    },
+    "roma": {
+      "gsd0": {
+        "attempted": 1598,
+        "success": 6,
+        "rate": 0.4,
+        "median_ok": 2682.5
+      },
+      "gsd1": {
+        "attempted": 1598,
+        "success": 358,
+        "rate": 22.4,
+        "median_ok": 478.1
+      }
+    }
+  },
+  "tir_sat": {
+    "sift": {
+      "gsd0": {
+        "attempted": 1598,
+        "success": 0,
+        "rate": 0.0,
+        "median_ok": 1688.6
+      },
+      "gsd1": {
+        "attempted": 1598,
+        "success": 0,
+        "rate": 0.0,
+        "median_ok": 617.9
+      }
+    },
+    "loftr": {
+      "gsd0": {
+        "attempted": 1598,
+        "success": 0,
+        "rate": 0.0,
+        "median_ok": 3733.1
+      },
+      "gsd1": {
+        "attempted": 1598,
+        "success": 13,
+        "rate": 0.8,
+        "median_ok": 23.5
+      }
+    },
+    "roma": {
+      "gsd0": {
+        "attempted": 1598,
+        "success": 0,
+        "rate": 0.0,
+        "median_ok": 1886.6
+      },
+      "gsd1": {
+        "attempted": 1598,
+        "success": 51,
+        "rate": 3.2,
+        "median_ok": 465.3
+      }
+    }
+  },
+  "fig6": {
+    "before": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "after": [
+      28.8,
+      14.0,
+      22.4,
+      0.0,
+      0.8,
+      3.2
+    ]
+  },
+  "per_scene_vis": {
+    "sift": {
+      "test01": {
+        "attempted": 218,
+        "success": 8,
+        "rate": 3.7,
+        "median_ok": 18.1
+      },
+      "test02": {
+        "attempted": 225,
+        "success": 132,
+        "rate": 58.7,
+        "median_ok": 8.8
+      },
+      "test03": {
+        "attempted": 327,
+        "success": 5,
+        "rate": 1.5,
+        "median_ok": 171.9
+      },
+      "test04": {
+        "attempted": 235,
+        "success": 181,
+        "rate": 77.0,
+        "median_ok": 6.0
+      },
+      "test05": {
+        "attempted": 249,
+        "success": 105,
+        "rate": 42.2,
+        "median_ok": 8.3
+      },
+      "test06": {
+        "attempted": 344,
+        "success": 29,
+        "rate": 8.4,
+        "median_ok": 17.7
+      }
+    },
+    "loftr": {
+      "test01": {
+        "attempted": 218,
+        "success": 27,
+        "rate": 12.4,
+        "median_ok": 25.1
+      },
+      "test02": {
+        "attempted": 225,
+        "success": 69,
+        "rate": 30.7,
+        "median_ok": 14.5
+      },
+      "test03": {
+        "attempted": 327,
+        "success": 110,
+        "rate": 33.6,
+        "median_ok": 8.4
+      },
+      "test04": {
+        "attempted": 235,
+        "success": 0,
+        "rate": 0.0,
+        "median_ok": null
+      },
+      "test05": {
+        "attempted": 249,
+        "success": 0,
+        "rate": 0.0,
+        "median_ok": 780.2
+      },
+      "test06": {
+        "attempted": 344,
+        "success": 17,
+        "rate": 4.9,
+        "median_ok": 635.2
+      }
+    },
+    "roma": {
+      "test01": {
+        "attempted": 218,
+        "success": 31,
+        "rate": 14.2,
+        "median_ok": 387.9
+      },
+      "test02": {
+        "attempted": 225,
+        "success": 73,
+        "rate": 32.4,
+        "median_ok": 32.3
+      },
+      "test03": {
+        "attempted": 327,
+        "success": 115,
+        "rate": 35.2,
+        "median_ok": 21.3
+      },
+      "test04": {
+        "attempted": 235,
+        "success": 84,
+        "rate": 35.7,
+        "median_ok": 438.8
+      },
+      "test05": {
+        "attempted": 249,
+        "success": 29,
+        "rate": 11.6,
+        "median_ok": 456.3
+      },
+      "test06": {
+        "attempted": 344,
+        "success": 26,
+        "rate": 7.6,
+        "median_ok": 577.0
+      }
+    }
+  },
+  "per_scene_tir": {
+    "sift": {
+      "test01": {
+        "attempted": 218,
+        "success": 0,
+        "rate": 0.0,
+        "median_ok": 234.3
+      },
+      "test02": {
+        "attempted": 225,
+        "success": 0,
+        "rate": 0.0,
+        "median_ok": null
+      },
+      "test03": {
+        "attempted": 327,
+        "success": 0,
+        "rate": 0.0,
+        "median_ok": null
+      },
+      "test04": {
+        "attempted": 235,
+        "success": 0,
+        "rate": 0.0,
+        "median_ok": null
+      },
+      "test05": {
+        "attempted": 249,
+        "success": 0,
+        "rate": 0.0,
+        "median_ok": null
+      },
+      "test06": {
+        "attempted": 344,
+        "success": 0,
+        "rate": 0.0,
+        "median_ok": 640.7
+      }
+    },
+    "loftr": {
+      "test01": {
+        "attempted": 218,
+        "success": 0,
+        "rate": 0.0,
+        "median_ok": null
+      },
+      "test02": {
+        "attempted": 225,
+        "success": 13,
+        "rate": 5.8,
+        "median_ok": 14.8
+      },
+      "test03": {
+        "attempted": 327,
+        "success": 0,
+        "rate": 0.0,
+        "median_ok": 50.1
+      },
+      "test04": {
+        "attempted": 235,
+        "success": 0,
+        "rate": 0.0,
+        "median_ok": null
+      },
+      "test05": {
+        "attempted": 249,
+        "success": 0,
+        "rate": 0.0,
+        "median_ok": null
+      },
+      "test06": {
+        "attempted": 344,
+        "success": 0,
+        "rate": 0.0,
+        "median_ok": 86.3
+      }
+    },
+    "roma": {
+      "test01": {
+        "attempted": 218,
+        "success": 0,
+        "rate": 0.0,
+        "median_ok": 582.2
+      },
+      "test02": {
+        "attempted": 225,
+        "success": 38,
+        "rate": 16.9,
+        "median_ok": 381.1
+      },
+      "test03": {
+        "attempted": 327,
+        "success": 10,
+        "rate": 3.1,
+        "median_ok": 381.8
+      },
+      "test04": {
+        "attempted": 235,
+        "success": 1,
+        "rate": 0.4,
+        "median_ok": 425.3
+      },
+      "test05": {
+        "attempted": 249,
+        "success": 0,
+        "rate": 0.0,
+        "median_ok": 484.8
+      },
+      "test06": {
+        "attempted": 344,
+        "success": 2,
+        "rate": 0.6,
+        "median_ok": 475.3
+      }
+    }
+  },
+  "autoscale": {
+    "vis_map": {
+      "trigger_rate": 40.112640801001255,
+      "n": 1598,
+      "mean_rt_per_pair": 3.7959518147684608
+    },
+    "ir_map": {
+      "trigger_rate": 0.0,
+      "n": 1598,
+      "mean_rt_per_pair": 1.2982540675844807
+    }
+  }
+}
